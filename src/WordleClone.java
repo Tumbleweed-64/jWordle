@@ -83,7 +83,7 @@ public class WordleClone {
 				System.out.println("\nGreat job! Play again soon!");
 		}
 		else {
-				System.out.println("You lost. The correct word was" + selectedWord + ".");
+				System.out.println("You lost. The correct word was " + selectedWord + ".");
 				System.out.println("\nYou'll get it next time! Try again soon!");
 		}
 	}
