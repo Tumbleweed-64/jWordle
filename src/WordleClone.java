@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 
 public class WordleClone {
-        static String ANSI_GREEN = "\u001B[0;32m";
+    static String ANSI_GREEN = "\u001B[0;32m";
 	static String ANSI_YELLOW = "\u001B[0;33m";
 	static String ANSI_RESET = "\u001B[0m";
 
@@ -18,14 +18,7 @@ public class WordleClone {
 		int currGuess = 0;
 
 		// Initializes the game board
-		String[][] gameWords = {
-			{" ", " ", " ", " ", " "},
-			{" ", " ", " ", " ", " "},
-			{" ", " ", " ", " ", " "},
-			{" ", " ", " ", " ", " "},
-			{" ", " ", " ", " ", " "},
-			{" ", " ", " ", " ", " "}
-		};
+		String[][] gameWords = {{" ", " ", " ", " ", " "}, {" ", " ", " ", " ", " "}, {" ", " ", " ", " ", " "}, {" ", " ", " ", " ", " "}, {" ", " ", " ", " ", " "}, {" ", " ", " ", " ", " "}};
 
 		// Lump in all 4747 words from the valid dictionary file, probably not too good for the CPU, but who cares
 		int dictIter = 0; // not wasting a good variable name like "i" on a while loop
